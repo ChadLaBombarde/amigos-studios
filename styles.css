@@ -1,0 +1,140 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60c00, 0 0 40px #e62e00, 0 0 50px #e62e00, 0 0 60px #e62e00, 0 0 70px #e62e00;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff624d, 0 0 40px #ff624d, 0 0 50px #ff624d, 0 0 60px #ff624d, 0 0 70px #ff624d, 0 0 80px #ff624d;
+    }
+  }
+  .design{
+    height: 50px;
+    font-style: italic;
+    font-size: 23px;
+    color: rgb(215, 246, 129);
+    background-color: transparent;
+    border: none;
+    font-family: 'Brush Script MT', cursive;
+    
+  }
+  
+  
+  .clamp{
+    height: 50px;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(161, 247, 13);
+    background-color: transparent;
+    border: none;
+    font-family: 'Courier New', monospace;
+    -webkit-animation: clamp 1s ease-in-out infinite alternate;
+    -moz-animation: clamp 1s ease-in-out infinite alternate;
+    animation: clamp 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes clamp {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 5px #fff, 0 0 10px #00e623, 0 0 15px #00e623, 0 0 20px #00e623, 0 0 25px #00e623, 0 0 30px #00e623;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 5px #7ce254, 0 0 10px #7ce254, 0 0 15px #7ce254, 0 0 20px #7ce254, 0 0 25px #7ce254, 0 0 30px #7ce254;
+    }
+  }
+  
+  
+  
+  .audio{
+    border: none;
+    background-color: inherit;
+    color:#f175b3;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .intro,
+  .events,
+  .contact {
+    padding: 20px;
+  }
+  
+  .intro h2,
+  .events h2,
+  .contact h2 {
+    color: #ff6600;
+  }
+  
+  .event-card {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #222;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  nav {
+    text-align: center;
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #19daec;
+  }
+  
